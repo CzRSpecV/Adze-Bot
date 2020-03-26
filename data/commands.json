@@ -1,0 +1,39 @@
+{
+    "Help": {
+        "help PAGE: "                                      : "Displays Help Message, specifying a page will show that help info.\n",
+        "info: "                                           : "Displays information about the bot, it's creators, and where you can go if you would like to suggest things."
+    },
+    "Admin": {
+        "changeprefix INSERT-SYMBOL: "                     : "Changes the prefix the bot uses in your server. Available Symbols: ``~!$%^&*()_+-={}[]|\\:\";\\'<>?,.`\n",
+        "clear 1-99: "                                     : "Clears the last 1-99 messages.\n",
+        "addprice: "                                       : "Adds an item in the Prices Database. Usage: addprice <ID> <NAME> <SHORTCUT> <PLAYER TRADE PRICE> <SHOP COST> (Note: Use _ as spaces in words. If you don't know ID or there is none, use default.)"
+    },
+    "Mod": {
+        "editprice: "                                      : "Edits a price in the Prices Database. Usage: editprice <ID / SHORTCUT / NAME> <NEW PLAYER TRADE PRICE> (Note: Use _ as spaces in words.)"
+    },
+    "Staff": {
+        "editstaff: "                                      : "Used to edit your stuff in the Staff Database. Usage: editstaff <discord / ign / other> <New Text> (Note: discord / ign / other is the text you put there. The <New Text> is what you wish to change whatever you specified to. Use _ as Spaces in <New Text>)"
+    },
+    "Fun": {
+        "discordlb: "                                      : "Shows a leaderboard of the top people chatting in our server."
+    },
+    "Pylos": {
+        "wiki: "                                           : "Searches the PylosPK Wiki. Usage: wiki <SEARCH RESULT>\n",
+        "pc: "                                             : "Searches a Database of items based on your search. Usage: pc <ID / SHORTCUT / NAME>\n",
+        "staff: "                                          : "Lists all staff details.",
+        "hiscore"                                          : "Searches the Hiscores for Pylos. Usage: hiscore <USERNAME>",
+        "addmarket"                                        : "Adds an item to your Market Listings. (Currently WIP!)",
+        "editmarket"                                       : "Edits an item in your Market Listing. (Currently WIP!)",
+        "deletemarket"                                     : "Removes a Market Listing. (Currently WIP!)"
+    },
+    "Music": {
+        "play SEARCH-TEARM/YOUTUBE-LINK/YOUTUBE-PLAYLIST: ": "Plays the selected music in the voice channel you are in, NOTE: Playlists have a maximum of 30 videos.\n",
+        "pause: "                                          : "Pauses the music.\n",
+        "resume: "                                         : "Resumes the paused music.\n",
+        "stop: "                                           : "Stop playing music.\n",
+        "skip: "                                           : "Skips current song.\n",
+        "showqueue: "                                      : "Shows the currently queued music.\n",
+        "nowplaying: "                                     : "Shows the currently playing song.\n",
+        "volume 1-100: "                                   : "Sets the bots volume in percent."
+    }
+}
