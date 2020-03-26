@@ -1,0 +1,104 @@
+{
+  "staff": [
+    {
+      "DiscordName": "CzRSpecV#1805",
+      "InGameName": "CzRSpecV",
+      "StaffType": "Helper",
+      "Other": "Bot Developer",
+      "SnowflakeID": "134900859560656896"
+    },
+    {
+      "DiscordName": "Sambo#1210",
+      "InGameName": "Adam",
+      "StaffType": "Community Manager",
+      "Other": "None",
+      "SnowflakeID": "381586897153032192"
+    },
+    {
+      "DiscordName": "Vuk#5323",
+      "InGameName": "Vukbrah",
+      "StaffType": "Developer",
+      "Other": "None",
+      "SnowflakeID": "397375117979680770"
+    },
+    {
+      "DiscordName": "sean#9999",
+      "InGameName": "Sean",
+      "StaffType": "Owner",
+      "Other": "None",
+      "SnowflakeID": "286198912723976192"
+    },
+    {
+      "DiscordName": "Suuri#5996",
+      "InGameName": "Suuri",
+      "StaffType": "Senior Moderator",
+      "Other": "None",
+      "SnowflakeID": "270796832374784000"
+    },
+    {
+      "DiscordName": "Dumling#7004",
+      "InGameName": "Dumling",
+      "StaffType": "Helper",
+      "Other": "None",
+      "SnowflakeID": "404403093053374474"
+    },
+    {
+      "DiscordName": "FRED//MONEY#0164",
+      "InGameName": "Money",
+      "StaffType": "Senior Moderator",
+      "Other": "None",
+      "SnowflakeID": "282647080038694913"
+    },
+    {
+      "DiscordName": "Jesse#2394",
+      "InGameName": "Jesse",
+      "StaffType": "Developer",
+      "Other": "None",
+      "SnowflakeID": "272638557934583808"
+    },
+    {
+      "DiscordName": "Jorik#8247",
+      "InGameName": "Jorik",
+      "StaffType": "Owner",
+      "Other": "None",
+      "SnowflakeID": "286117250786656257"
+    },
+    {
+      "DiscordName": "PJ#2685",
+      "InGameName": "Jinx",
+      "StaffType": "Helper",
+      "Other": "None",
+      "SnowflakeID": "272561549225361418"
+    },
+    {
+      "DiscordName": "Mythic#5888",
+      "InGameName": "Omniscient",
+      "StaffType": "Moderator",
+      "Other": "None",
+      "SnowflakeID": "248611626163372032"
+    },
+    {
+      "DiscordName": "KNIGHTMARE#6892",
+      "InGameName": "Byakuya",
+      "StaffType": "Moderator",
+      "Other": "None",
+      "SnowflakeID": "378720493341245477"
+    },
+    {
+      "DiscordName": "Darkwarden#0428",
+      "InGameName": "Darkwarden",
+      "StaffType": "Developer",
+      "Other": "None",
+      "SnowflakeID": "307943488421494784"
+    },
+    {
+      "DiscordName": "mibpolicer#7920",
+      "InGameName": "mib",
+      "StaffType": "Developer",
+      "Other": "None",
+      "SnowflakeID": "303635563754291203"
+    }
+  ],
+  "success": true,
+  "status": 200
+}

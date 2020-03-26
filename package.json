@@ -1,0 +1,19 @@
+{
+    "name": "adze-bot",
+    "version": "1.2.0",
+    "description": "Custom Bot for PylosPK RSPS",
+    "main": "adze.js",
+    "author": "CzRSpecV",
+    "dependencies": {
+        "@discordjs/uws": "^10.149.0",
+        "discord-oauth2": "^2.0.2",
+        "discord.js": "^11.6.1",
+        "ffmpeg": "0.0.4",
+        "form-data": "^3.0.0",
+        "node-fetch": "^2.6.0",
+        "node-opus": "^0.3.3",
+        "simple-youtube-api": "^5.2.1",
+        "xmlhttprequest": "^1.8.0",
+        "ytdl-core": "^1.0.9"
+    }
+}
