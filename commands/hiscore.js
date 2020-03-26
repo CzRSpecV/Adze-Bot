@@ -100,25 +100,25 @@ function getHiscore(message, user_name) {
                 buildLevel();
                 //#region Display Message
                 var dispMsg =
-                    '<:skill:686103004285370612> Total Level: ' + TotalLvl + ' - Total XP: ' + TotalXP + 
-                    '\n\n<:Cooking:690740041273835561> Cooking Level: ' + CookingLvl + ' - Cooking XP: ' + CookingXP + 
-                    '\n<:Woodcutting:690740041651322880> Woodcutting Level: ' + WoodcuttingLvl + ' - Woodcutting XP: ' + WoodcuttingXP + 
-                    '\n<:Fletching:690740041227567175> Fletching Level: ' + FletchingLvl + ' - Fletching XP: ' + FletchingXP + 
-                    '\n<:Fishing:690740041345138689> Fishing Level: ' + FishingLvl + ' - Fishing XP: ' + FishingXP + 
-                    '\n<:Firemaking:690740041340682291> Firemaking Level: ' + FiremakingLvl + ' - Firemaking XP: ' + FiremakingXP + 
-                    '\n<:Crafting:690740041307127818> Crafting Level: ' + CraftingLvl + ' - Crafting XP: ' + CraftingXP + 
-                    '\n<:Smithing:690740041298739211> Smithing Level: ' + SmithingLvl + ' - Smithing XP: ' + SmithingXP + 
-                    '\n<:Mining:690740041512779856> Mining Level: ' + MiningLvl + ' - Mining XP: ' + MiningXP + 
-                    '\n<:Herblore:690740041366110291> Herblore Level: ' + HerbloreLvl + ' - Herblore XP: ' + HerbloreXP + 
-                    '\n<:Agility:690740041336487967> Agility Level: ' + AgilityLvl + ' - Agility XP: ' + AgilityXP +
-                    '\n<:Thieving:690740041680683017> Thieving Level: ' + ThievingLvl + ' - Thieving XP: ' + ThievingXP + 
-                    '\n<:Slayer:690740041583951924> Slayer Level: ' + SlayerLvl + ' - Slayer XP: ' + SlayerXP + 
-                    '\n<:Farming:690740041114189885> Farming Level: ' + FarmingLvl + ' - Farming XP: ' + FarmingXP + 
-                    '\n<:Runecraft:690740041244213309> Runecrafting Level: ' + RunecraftingLvl + ' - Runecrafting XP: ' + RunecraftingXP + 
-                    '\n<:Hunter:690740041428762725> Hunter Level: ' + HunterLvl + ' - Hunter XP: ' + HunterXP + 
-                    '\n<:Summoning:690746111966838816> Summoning Level: ' + SummoningLvl + ' - Summoning XP: ' + SummoningXP +  
-                    '\n<:Construction:690740041298870343> Construction Level: ' + ConstructionLvl + ' - Construction XP: ' + ConstructionXP + 
-                    '\n<:Dung:690746112033816587> Dungeoneering Level: ' + DungLvl + ' - Dungeoneering XP: ' + DungXP;
+                    '<:Skiller:662076719485943848> Total Level: ' + TotalLvl + ' - Total XP: ' + TotalXP + 
+                    '\n\n<:Cooking:692849025875181670> Cooking Level: ' + CookingLvl + ' - Cooking XP: ' + CookingXP + 
+                    '\n<:Woodcutting:692849026294349906> Woodcutting Level: ' + WoodcuttingLvl + ' - Woodcutting XP: ' + WoodcuttingXP + 
+                    '\n<:Fletching:692849026344943686> Fletching Level: ' + FletchingLvl + ' - Fletching XP: ' + FletchingXP + 
+                    '\n<:Fishing:692849026357264634> Fishing Level: ' + FishingLvl + ' - Fishing XP: ' + FishingXP + 
+                    '\n<:Firemaking:692849026315583528> Firemaking Level: ' + FiremakingLvl + ' - Firemaking XP: ' + FiremakingXP + 
+                    '\n<:Crafting:692849025933770783> Crafting Level: ' + CraftingLvl + ' - Crafting XP: ' + CraftingXP + 
+                    '\n<:Smithing:692849026147811409> Smithing Level: ' + SmithingLvl + ' - Smithing XP: ' + SmithingXP + 
+                    '\n<:Mining:692849026433024060> Mining Level: ' + MiningLvl + ' - Mining XP: ' + MiningXP + 
+                    '\n<:Herblore:692849026395144383> Herblore Level: ' + HerbloreLvl + ' - Herblore XP: ' + HerbloreXP + 
+                    '\n<:Agility:692849026089091152> Agility Level: ' + AgilityLvl + ' - Agility XP: ' + AgilityXP +
+                    '\n<:Thieving:692849026676162640> Thieving Level: ' + ThievingLvl + ' - Thieving XP: ' + ThievingXP + 
+                    '\n<:Slayer:692849026328035419> Slayer Level: ' + SlayerLvl + ' - Slayer XP: ' + SlayerXP + 
+                    '\n<:Farming:692849026156200077> Farming Level: ' + FarmingLvl + ' - Farming XP: ' + FarmingXP + 
+                    '\n<:Runecraft:692849026437218454> Runecrafting Level: ' + RunecraftingLvl + ' - Runecrafting XP: ' + RunecraftingXP + 
+                    '\n<:Hunter:692849026399207535> Hunter Level: ' + HunterLvl + ' - Hunter XP: ' + HunterXP + 
+                    '\n<:Summoning:692849026252537969> Summoning Level: ' + SummoningLvl + ' - Summoning XP: ' + SummoningXP +  
+                    '\n<:Construction:692849025791295571> Construction Level: ' + ConstructionLvl + ' - Construction XP: ' + ConstructionXP + 
+                    '\n<:Dung:692849025971388447> Dungeoneering Level: ' + DungLvl + ' - Dungeoneering XP: ' + DungXP;
                 //#endregion Display Message
                 const embMsg = new Discord.RichEmbed()
                         .setTitle('Hiscores - ' + PlayerName)

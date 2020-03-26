@@ -48,7 +48,7 @@ function messageHandling(client) {
 
         //#region Permission Checks
         // Checks to see if its Valid Channels   
-        if ((Number(message.channel.id) != 684590756668768338) && (Number(message.channel.id) != 686100064841629700) && (Number(message.channel.id) != 684603518589337739) && (Number(message.channel.id) != 685013878266003467)) {
+        if ((Number(message.channel.id) != 639491883944640515) && (Number(message.channel.id) != 640611993782321162) && (Number(message.channel.id) != 684054391069737020) && (Number(message.channel.id) != 640225686212182026)) {
             return;
         }
 
