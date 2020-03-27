@@ -115,7 +115,7 @@ function messageHandling(client) {
         if(message.mentions.users.first() !== undefined) {
             if(message.mentions.users.first().id === '649123729800167456') {
                 const embMsg = new Discord.RichEmbed()
-                    .setTitle('Hello there!')
+                    .setTitle('Hello There!')
                     .setColor(0x00ffe7)
                     .setDescription('My name is Adze, a fully custom Discord Bot made for PylosPK RSPS!\nI can tell you what I do by doing **!help** or **!info**\nYou can find us at https://pylospk.com\n\nFramework provided by my good friend NobleWolf42, and written by CzRSpecV. If you have any suggestions feel free to DM me at: CzRSpecV#1805');
                 message.channel.send(embMsg);
