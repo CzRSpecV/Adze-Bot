@@ -6,6 +6,7 @@ Framework Written by NobleWolf42
 Custom Commands Written by CzRSpecV
 
 - Framework and Dependancies -
+
 Bot Framework is Discord.js
 
 Install Commands for Dependancies:
