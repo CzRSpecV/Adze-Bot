@@ -68,16 +68,15 @@ var XMLHttpRequest = xmlhttp.XMLHttpRequest;
 function getHiscore(message, user_name) {
     try {
     var userInput = message.content.toLowerCase().split(' ');
-    if(userInput.length < 1) {
+    if(userInput.length === 1) {
         const embMsg = new Discord.RichEmbed()
             .setTitle('Invalid Search!')
             .setColor(0xb50000)
             .setDescription('Invalid Hiscore lookup! Must be !hiscore <username>');
         message.channel.send(embMsg);
         Logging.addToLog('Warning', 'Hiscore', message.author.username, message.author.id, message.channel.name);
-    } else {
+    } else if (userInput.length > 1) {
         var request = new XMLHttpRequest();
-
         request.open('GET', 'https://pylos.everythingrs.com/account/hiscores2/view/player/pylos/' + user_name, true);
         request.onload = function() {
             var data = JSON.parse(request.responseText)[0];
