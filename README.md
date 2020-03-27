@@ -15,7 +15,3 @@ Install Commands for Dependancies:
     - Windows: choco install ffmpeg
     - Ubuntu: apt install ffmpeg
     - Mac: brew install ffmpeg
-
-    IF THIS EXITS IT WORKED
-
- Test Text 
