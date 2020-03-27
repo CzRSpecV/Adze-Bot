@@ -1,6 +1,6 @@
 # Adze-Bot
 
-Custom Discord Bot for the PylosPK.com RSPS!
+Custom Discord Bot for the PylosPK.com RSPS! 03/26/2020
 
 Framework Written by NobleWolf42
 Custom Commands Written by CzRSpecV
