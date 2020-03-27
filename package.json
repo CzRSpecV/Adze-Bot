@@ -7,7 +7,7 @@
     "dependencies": {
         "@discordjs/uws": "^10.149.0",
         "discord-oauth2": "^2.0.2",
-        "discord.js": "^11.6.1",
+        "discord.js": "^11.6.3",
         "ffmpeg": "0.0.4",
         "form-data": "^3.0.0",
         "node-fetch": "^2.6.0",
