@@ -75,9 +75,8 @@ function getHiscore(message, user_name) {
             .setDescription('Invalid Hiscore lookup! Must be !hiscore <username>');
         message.channel.send(embMsg);
         Logging.addToLog('Warning', 'Hiscore', message.author.username, message.author.id, message.channel.name);
-    } else {
+    } else if (userInput.length > 1) {
         var request = new XMLHttpRequest();
-
         request.open('GET', 'https://pylos.everythingrs.com/account/hiscores2/view/player/pylos/' + user_name, true);
         request.onload = function() {
             var data = JSON.parse(request.responseText)[0];
