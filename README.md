@@ -16,4 +16,4 @@ Install Commands for Dependancies:
     - Ubuntu: apt install ffmpeg
     - Mac: brew install ffmpeg
 
-    IF THIS EXITS IT WORKED
+    IF THIS EXITS IT WORKED, That Was a Lie
