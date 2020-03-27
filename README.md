@@ -5,6 +5,7 @@ Custom Discord Bot for the PylosPK.com RSPS! 03/26/2020
 Framework Written by NobleWolf42
 Custom Commands Written by CzRSpecV
 
+- Framework and Dependancies -
 Bot Framework is Discord.js
 
 Install Commands for Dependancies:
