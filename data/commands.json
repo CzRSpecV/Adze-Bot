@@ -15,7 +15,7 @@
         "editstaff: "                                      : "Used to edit your stuff in the Staff Database. Usage: editstaff <discord / ign / other> <New Text> (Note: discord / ign / other is the text you put there. The <New Text> is what you wish to change whatever you specified to. Use _ as Spaces in <New Text>)"
     },
     "Fun": {
-        "discordlb: "                                      : "Shows a leaderboard of the top people chatting in our server."
+        "discordlb: "                                      : "Shows a leaderboard of the top people chatting in our server. (Currently Fixing an issue with this.)"
     },
     "Pylos": {
         "wiki: "                                           : "Searches the PylosPK Wiki. Usage: wiki <SEARCH RESULT>\n",

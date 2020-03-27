@@ -540,19 +540,23 @@ function messageHandling(client) {
         //#region Fun Commands
 
         //#region Discord Leaderboards
+        /*
         if (command === (prefix + 'discordlb')) {
             DiscordLeaderboard.viewLeaderboard(message);
         }
+        */
         //#endregion Discord Leaderboards
 
         //#endregion Fun Commands
 
         //THIS MUST BE AT THE BOTTOM OF THE CLIENT.ON
         //#region Log File Checking and Resetting
+        /*
         reloadLogJSON();
         if(logFile.logging.length > 100) {
             Logging.fatalErrorLogging(client);
         }
+        */
         //#endregion
 
         //#endregion Commands End
