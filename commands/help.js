@@ -9,7 +9,7 @@ var excludedcommands = ["Admin"];
 
 //#region info command
 function getInfo(message) {
-    var txt = '**Bot Name:** Adze\n\n**Description:** Full Functionality Bot designed for the PylosPK RSPS Discord Server by CzRSpecV & NobleWolf42! Feel free to join us on Discord at https://discord.gg/J3ejbBM or our website https://pylospk.com/';
+    var txt = '**Bot Name:** Adze\n\n**Description:** Full Functionality Bot designed for the PylosPK RSPS Discord Server by CzRSpecV & NobleWolf42!\nFeel free to join us on Discord at https://discord.gg/J3ejbBM or our website https://pylospk.com/';
 
     const embMsg = new Discord.RichEmbed()
         .setTitle('Information')
