@@ -52,6 +52,9 @@ function checkStaffList(message) {
     if (msgStringMod === "") {
         msgStringMod = "```None Currently\n```"
     }
+    if (msgStringComMan === "") {
+        msgStringComMan = "```None Currently\n```"
+    }
     if (msgStringHelper === "") {
         msgStringHelper = "```None Currently\n```"
     }
