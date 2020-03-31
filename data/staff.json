@@ -10,7 +10,7 @@
     {
       "DiscordName": "Sambo#1210",
       "InGameName": "Adam",
-      "StaffType": "Community Manager",
+      "StaffType": "Administrator",
       "Other": "None",
       "SnowflakeID": "381586897153032192"
     },
@@ -38,7 +38,7 @@
     {
       "DiscordName": "Dumling#7004",
       "InGameName": "Dumling",
-      "StaffType": "Helper",
+      "StaffType": "Moderator",
       "Other": "None",
       "SnowflakeID": "404403093053374474"
     },
@@ -97,6 +97,13 @@
       "StaffType": "Developer",
       "Other": "None",
       "SnowflakeID": "303635563754291203"
+    },
+    {
+      "DiscordName": "Runerova#5974",
+      "InGameName": "Runerova",
+      "StaffType": "Trial Helper",
+      "Other": "None",
+      "SnowflakeID": "194924207220457481"
     }
   ],
   "success": true,

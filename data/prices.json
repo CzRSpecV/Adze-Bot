@@ -36,13 +36,6 @@
       "storeCost": "180K Blood Money"
     },
     {
-      "itemID": "16909",
-      "itemName": "Primal 2h Sword",
-      "itemShortcut": "P2H",
-      "itemCost": "20000 PKT",
-      "storeCost": "5000 DP"
-    },
-    {
       "itemID": "18357",
       "itemName": "Chaotic Crossbow",
       "itemShortcut": "CCB",
@@ -172,7 +165,7 @@
       "itemID": "16909",
       "itemName": "Primal 2h Sword",
       "itemShortcut": "p2h",
-      "itemCost": "75k PKT",
+      "itemCost": "50,000 PKT",
       "storeCost": "5000 Donator Points"
     },
     {
@@ -286,6 +279,48 @@
       "itemShortcut": "Top Hat",
       "itemCost": "2k PKT",
       "storeCost": "30 Vote Points"
+    },
+    {
+      "itemID": "19323",
+      "itemName": "Dragon Staff",
+      "itemShortcut": "Dstaff",
+      "itemCost": "No Set Value",
+      "storeCost": "25,000 PVM Tokens"
+    },
+    {
+      "itemID": "00003",
+      "itemName": "Zephyrium Set",
+      "itemShortcut": "Zephyrium",
+      "itemCost": "No Set Value, Pm Soren To Buy This Item",
+      "storeCost": "Donation Deal"
+    },
+    {
+      "itemID": "00004",
+      "itemName": "Ringmaster Set",
+      "itemShortcut": "Ringmaster",
+      "itemCost": "No Set Value",
+      "storeCost": "38 Legendary Tickets"
+    },
+    {
+      "itemID": "00004",
+      "itemName": "AGS Imbue Kit",
+      "itemShortcut": "lags",
+      "itemCost": "Untradeable",
+      "storeCost": "50 Vote Points"
+    },
+    {
+      "itemID": "00005",
+      "itemName": "Gmaul Imbue Kit",
+      "itemShortcut": "gm i",
+      "itemCost": "Untradeable",
+      "storeCost": "50 Vote Points"
+    },
+    {
+      "itemID": "19888",
+      "itemName": "Demon Horn Necklace",
+      "itemShortcut": "demon horn",
+      "itemCost": "2,000-3,000 PKT",
+      "storeCost": "NPC Drop"
     }
   ],
   "success": true,
