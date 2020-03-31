@@ -8,6 +8,10 @@ function fixStaffFile(message) {
 
     var userInput = message.content.toLowerCase().split(' ');
     var userWrite = message.content.split(' ');
+    var inputChar = userWrite[3].split('');
+    var userIn = "";
+    for(let c = 0; c < userInput[3].length; c++) { if(inputChar[c] === '_') { inputChar[c] = ' '; } }
+    for(let c = 0; c < userInput[3].length; c++) { userIn = userIn + inputChar[c]; }
     var FileLoad;
     var didPass = false;
 
@@ -33,7 +37,7 @@ function fixStaffFile(message) {
                     case 'discord':
                         if((userInput[2] === FileLoad.DiscordName.toLowerCase() || (userInput[2] === FileLoad.InGameName.toLowerCase()) || (userInput[2] === FileLoad.SnowflakeID.toLowerCase()))) {
                             staffChange = {};
-                            staffChange.DiscordName = userWrite[3];
+                            staffChange.DiscordName = userIn;
                             staffChange.InGameName = FileLoad.InGameName;
                             staffChange.StaffType = FileLoad.StaffType;
                             staffChange.Other = FileLoad.Other;
@@ -46,7 +50,7 @@ function fixStaffFile(message) {
                         if((userInput[2] === FileLoad.DiscordName.toLowerCase() || (userInput[2] === FileLoad.InGameName.toLowerCase()) || (userInput[2] === FileLoad.SnowflakeID.toLowerCase()))) {
                             staffChange = {};
                             staffChange.DiscordName = FileLoad.DiscordName;
-                            staffChange.InGameName = userWrite[3];
+                            staffChange.InGameName = userIn;
                             staffChange.StaffType = FileLoad.StaffType;
                             staffChange.Other = FileLoad.Other;
                             staffChange.SnowflakeID = FileLoad.SnowflakeID;
@@ -59,7 +63,7 @@ function fixStaffFile(message) {
                             staffChange = {};
                             staffChange.DiscordName = FileLoad.DiscordName;
                             staffChange.InGameName = FileLoad.InGameName;
-                            staffChange.StaffType = userWrite[3];
+                            staffChange.StaffType = userIn;
                             staffChange.Other = FileLoad.Other;
                             staffChange.SnowflakeID = FileLoad.SnowflakeID;
                             staffFile.staff[c] = staffChange;
@@ -72,7 +76,7 @@ function fixStaffFile(message) {
                             staffChange.DiscordName = FileLoad.DiscordName;
                             staffChange.InGameName = FileLoad.InGameName;
                             staffChange.StaffType = FileLoad.StaffType;
-                            staffChange.Other = userWrite[3];
+                            staffChange.Other = userIn;
                             staffChange.SnowflakeID = FileLoad.SnowflakeID;
                             staffFile.staff[c] = staffChange;
                             didPass = true;
@@ -85,7 +89,7 @@ function fixStaffFile(message) {
                             staffChange.InGameName = FileLoad.InGameName;
                             staffChange.StaffType = FileLoad.StaffType;
                             staffChange.Other = FileLoad.Other;
-                            staffChange.SnowflakeID = userWrite[3];
+                            staffChange.SnowflakeID = userIn;
                             staffFile.staff[c] = staffChange;
                             didPass = true;
                         }
