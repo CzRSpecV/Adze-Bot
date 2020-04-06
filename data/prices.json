@@ -321,6 +321,13 @@
       "itemShortcut": "demon horn",
       "itemCost": "2,000-3,000 PKT",
       "storeCost": "NPC Drop"
+    },
+    {
+      "itemID": "15259",
+      "itemName": "Dragon Pickaxe",
+      "itemShortcut": "dpick",
+      "itemCost": "7k PKT",
+      "storeCost": "N/A"
     }
   ],
   "success": true,
