@@ -92,7 +92,7 @@ function priceMessage(message) {
         const embMsg = new Discord.RichEmbed()
             .setTitle('Sorry!')
             .setColor(0xb50000)
-            .setDescription('The item you attempted to search: ' + userNormal[1] + ' is not currently in the database!\nIf you believe it should be, contact an Admin.');
+            .setDescription('The item you attempted to search: ' + ToSearch + ' is not currently in the database!\nIf you believe it should be, contact an Admin.');
         message.channel.send(embMsg);
     }
     if((SearchError === false) && (FullNameList != true)) {
