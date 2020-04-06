@@ -78,6 +78,7 @@ function messageHandling(client) {
 
         //#region Leaderboard Management
         // Cooldown for Leaderboard
+        /*
         if(Cooldown.has(message.author.id)) {
             return;
         } else {
@@ -90,6 +91,7 @@ function messageHandling(client) {
                 LeaderAdd.addToLeaderboard(message);
             }
         }
+        */
         //#endregion Leaderboard Managment
 
         //#region Standard Varibles
