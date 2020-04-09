@@ -328,6 +328,34 @@
       "itemShortcut": "dpick",
       "itemCost": "7k PKT",
       "storeCost": "N/A"
+    },
+    {
+      "itemID": "13263",
+      "itemName": "Slayer Helm",
+      "itemShortcut": "sh",
+      "itemCost": "60,000 - 70,000 PKT",
+      "storeCost": "400 Slayer Points"
+    },
+    {
+      "itemID": "15488",
+      "itemName": "Hexcrest",
+      "itemShortcut": "Hex",
+      "itemCost": "40,000 - 50,000 PKT",
+      "storeCost": "300 Slayer Points"
+    },
+    {
+      "itemID": "15490",
+      "itemName": "Focus Sight",
+      "itemShortcut": "Focus",
+      "itemCost": "40,000 - 50,000 PKT",
+      "storeCost": "300 Slayer Points"
+    },
+    {
+      "itemID": "15492",
+      "itemName": "Full Slayer Helmet",
+      "itemShortcut": "FSH",
+      "itemCost": "150,000 - 175,000 PKT",
+      "storeCost": "1,000 Slayer Points"
     }
   ],
   "success": true,
