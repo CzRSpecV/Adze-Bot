@@ -356,6 +356,13 @@
       "itemShortcut": "FSH",
       "itemCost": "150,000 - 175,000 PKT",
       "storeCost": "1,000 Slayer Points"
+    },
+    {
+      "itemID": "999999",
+      "itemName": "Fred",
+      "itemShortcut": "Money",
+      "itemCost": "shit",
+      "storeCost": "shit"
     }
   ],
   "success": true,
