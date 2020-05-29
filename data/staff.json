@@ -3,14 +3,14 @@
     {
       "DiscordName": "CzRSpecV#1805",
       "InGameName": "CzRSpecV",
-      "StaffType": "Helper",
+      "StaffType": "Bot Owner",
       "Other": "Bot Developer",
       "SnowflakeID": "134900859560656896"
     },
     {
       "DiscordName": "Sambo#1210",
       "InGameName": "Adam",
-      "StaffType": "Administrator",
+      "StaffType": "Head Moderator",
       "Other": "None",
       "SnowflakeID": "381586897153032192"
     },
@@ -22,7 +22,7 @@
       "SnowflakeID": "397375117979680770"
     },
     {
-      "DiscordName": "sean#9999",
+      "DiscordName": "storm#3920",
       "InGameName": "Sean",
       "StaffType": "Owner",
       "Other": "None",
@@ -43,14 +43,7 @@
       "SnowflakeID": "404403093053374474"
     },
     {
-      "DiscordName": "FRED//MONEY#0164",
-      "InGameName": "Money",
-      "StaffType": "Senior Moderator",
-      "Other": "None",
-      "SnowflakeID": "282647080038694913"
-    },
-    {
-      "DiscordName": "Jesse#2394",
+      "DiscordName": "Jesse#0420",
       "InGameName": "Jesse",
       "StaffType": "Developer",
       "Other": "None",
@@ -64,14 +57,7 @@
       "SnowflakeID": "286117250786656257"
     },
     {
-      "DiscordName": "PJ#2685",
-      "InGameName": "Jinx",
-      "StaffType": "Helper",
-      "Other": "None",
-      "SnowflakeID": "272561549225361418"
-    },
-    {
-      "DiscordName": "Mythic#5888",
+      "DiscordName": "mythic#5888",
       "InGameName": "Omniscient",
       "StaffType": "Senior Moderator",
       "Other": "None",
@@ -85,25 +71,25 @@
       "SnowflakeID": "378720493341245477"
     },
     {
-      "DiscordName": "Darkwarden#0428",
+      "DiscordName": "Darkwarden#9999",
       "InGameName": "Darkwarden",
       "StaffType": "Developer",
       "Other": "None",
       "SnowflakeID": "307943488421494784"
     },
     {
-      "DiscordName": "mibpolicer#7920",
-      "InGameName": "mib",
-      "StaffType": "Developer",
-      "Other": "None",
-      "SnowflakeID": "303635563754291203"
-    },
-    {
       "DiscordName": "Runerova#5974",
       "InGameName": "Runerova",
-      "StaffType": "Trial Helper",
+      "StaffType": "Moderator",
       "Other": "None",
       "SnowflakeID": "194924207220457481"
+    },
+    {
+      "DiscordName": "dsisback#4927",
+      "InGameName": "Dsisback",
+      "StaffType": "Helper",
+      "Other": "None",
+      "SnowflakeID": "691825937058103326"
     }
   ],
   "success": true,
