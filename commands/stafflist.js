@@ -9,11 +9,13 @@ function checkStaffList(message) {
     var msgStringOwner = "";
     var msgStringDev = "";
     var msgStringAdmin = "";
-    var msgStringGMod = "";
+    var msgStringHMod = "";
+    var msgStringSMod = "";
     var msgStringMod = "";
     var msgStringComMan = "";
     var msgStringHelper = "";
     var msgStringTrial = "";
+    var msgStringBotOwner = "";
     var msgFinal = "**Owners:**\n";
 
     for(let i = 0; i < staffFile.staff.length; i++) {
@@ -24,8 +26,10 @@ function checkStaffList(message) {
             msgStringDev = msgStringDev + "```Discord Name: " + listName.DiscordName + "\nIGN: " + listName.InGameName + "\nOther Roles: " + listName.Other + "```\n";
         } else if(listName.StaffType.toLowerCase() === "administrator") {
             msgStringAdmin = msgStringAdmin + "```Discord Name: " + listName.DiscordName + "\nIGN: " + listName.InGameName + "\nOther Roles: " + listName.Other + "```\n";
+        } else if(listName.StaffType.toLowerCase() === "head moderator") {
+            msgStringHMod = msgStringHMod + "```Discord Name: " + listName.DiscordName + "\nIGN: " + listName.InGameName + "\nOther Roles: " + listName.Other + "```\n";
         } else if(listName.StaffType.toLowerCase() === "senior moderator") {
-            msgStringGMod = msgStringGMod + "```Discord Name: " + listName.DiscordName + "\nIGN: " + listName.InGameName + "\nOther Roles: " + listName.Other + "```\n";
+            msgStringSMod = msgStringSMod + "```Discord Name: " + listName.DiscordName + "\nIGN: " + listName.InGameName + "\nOther Roles: " + listName.Other + "```\n";
         } else if(listName.StaffType.toLowerCase() === "moderator") {
             msgStringMod = msgStringMod + "```Discord Name: " + listName.DiscordName + "\nIGN: " + listName.InGameName + "\nOther Roles: " + listName.Other + "```\n";
         } else if(listName.StaffType.toLowerCase() === "community manager") {
@@ -34,6 +38,8 @@ function checkStaffList(message) {
             msgStringHelper = msgStringHelper + "```Discord Name: " + listName.DiscordName + "\nIGN: " + listName.InGameName + "\nOther Roles: " + listName.Other + "```\n";
         } else if(listName.StaffType.toLowerCase() === "trial helper") {
             msgStringTrial = msgStringTrial + "```Discord Name: " + listName.DiscordName + "\nIGN: " + listName.InGameName + "\nOther Roles: " + listName.Other + "```\n";
+        } else if(listName.StaffType.toLowerCase() === "bot owner") {
+            msgStringBotOwner = msgStringBotOwner + "```Discord Name: " + listName.DiscordName + "\nIGN: " + listName.InGameName + "\nOther Roles: " + listName.Other + "```\n";
         }
     }
 
@@ -46,8 +52,11 @@ function checkStaffList(message) {
     if (msgStringAdmin === "") {
         msgStringAdmin = "```None Currently\n```"
     }
-    if (msgStringGMod === "") {
-        msgStringGMod = "```None Currently\n```"
+    if (msgStringHMod === "") {
+        msgStringHMod = "```None Currently\n```"
+    }
+    if (msgStringSMod === "") {
+        msgStringSMod = "```None Currently\n```"
     }
     if (msgStringMod === "") {
         msgStringMod = "```None Currently\n```"
@@ -65,11 +74,13 @@ function checkStaffList(message) {
     msgFinal = msgFinal + msgStringOwner + 
             "**Developers:**\n" + msgStringDev + 
             "**Administrators:**\n" + msgStringAdmin + 
-            "**Senior Moderators:**\n" + msgStringGMod + 
+            "**Head Moderators:**\n" + msgStringHMod + 
+            "**Senior Moderators:**\n" + msgStringSMod +
             "**Moderators:**\n" + msgStringMod + 
             "**Community Managers:**\n" + msgStringComMan + 
             "**Helpers:**\n" + msgStringHelper + 
-            "**Trial Helpers:**\n" + msgStringTrial;
+            "**Trial Helpers:**\n" + msgStringTrial + 
+            "**Bot Owner:**\n" + msgStringBotOwner;
 
     const embMsg = new Discord.RichEmbed()
             .setTitle('Pylos Staff Team')
