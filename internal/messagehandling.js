@@ -119,7 +119,7 @@ function messageHandling(client) {
                 const embMsg = new Discord.RichEmbed()
                     .setTitle('Hello There!')
                     .setColor(0x00ffe7)
-                    .setDescription('My name is Adze, a fully custom Discord Bot made for PylosPK RSPS!\nI can tell you what I do by doing **!help** or **!info**\nYou can find us at https://pylospk.com\n\nFramework provided by my good friend NobleWolf42, and written by CzRSpecV. If you have any suggestions feel free to DM me at: CzRSpecV#1805');
+                    .setDescription('My name is Adze, a fully custom Discord Bot made for Pylos RSPS!\nI can tell you what I do by doing **!help** or **!info**\nYou can find us at https://pylos.io\n\nFramework provided by my good friend NobleWolf42, and written by CzRSpecV. If you have any suggestions feel free to DM me at: CzRSpecV#1805');
                 message.channel.send(embMsg);
                 return;
             }
@@ -460,7 +460,8 @@ function messageHandling(client) {
 
         //#region In Game Highscores
         if (command === (prefix + 'hiscore')) {
-            Hiscore.getHiscore(message, message.content.toLowerCase().substring(9));
+            //Hiscore.getHiscore(message, message.content.toLowerCase().substring(9));
+            message.channel.send("Currently this feature is disabled while its updated to the new Hiscores Page.\n~ CzRSpecV");
         }
         //#endregion In Game Highscores
 
