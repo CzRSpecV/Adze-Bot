@@ -34,7 +34,7 @@ client.on("ready", () => {
     MessageHandler.messageHandling(client);
     //MessageHandler.PMHandling(client);
     ServerJoin.serverJoin(client);
-    client.user.setPresence({ game: { name: `PylosPK.com | !help` } });
+    client.user.setPresence({ game: { name: `Pylos.io | !help` } });
 });
 
 //Logs Errors
