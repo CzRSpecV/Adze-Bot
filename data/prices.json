@@ -102,7 +102,7 @@
       "itemID": "13740",
       "itemName": "Divine Spirit Shield",
       "itemShortcut": "Divine",
-      "itemCost": "25-30k PKT",
+      "itemCost": "75k PKT",
       "storeCost": "1999 Donator Points"
     },
     {
@@ -256,7 +256,7 @@
       "itemID": "14864",
       "itemName": "Zaniks Crossbow",
       "itemShortcut": "zaniks",
-      "itemCost": "65k PKT",
+      "itemCost": "45k PKT",
       "storeCost": "420k Blood Money"
     },
     {
@@ -363,6 +363,13 @@
       "itemShortcut": "Money",
       "itemCost": "shit",
       "storeCost": "shit"
+    },
+    {
+      "itemID": "86688686",
+      "itemName": "Adam",
+      "itemShortcut": "cultivator",
+      "itemCost": "pedophile",
+      "storeCost": "pedophile"
     }
   ],
   "success": true,
